@@ -2,10 +2,5 @@ body{
 	background-color: antiquewhite;
 }
 .container {
-	font-size: auto;
 	padding: 10px;
-}
-
-form {
-	font-size: 15px;
 }
