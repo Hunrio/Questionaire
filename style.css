@@ -11,19 +11,21 @@ h1 {
 	padding: 20px 10px;
 }
 form {
-
-		font-size: 4vw;
+		font-size: 1.5vw;
 	}
 	strong {
 	font-size: 4.5vw;
 }
 input {
-	width:40px; 
-	height:40px;
+	width:20px; 
+	height:20px;
 }
 button {
 	font-size: 3.5vw;
 	padding: 20px;
+}
+button:hover{
+	cursor : pointer;
 }
 .output {
 	border: 1px solid black;

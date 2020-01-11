@@ -1,4 +1,7 @@
 const form = document.getElementById('form');
+const autocraticDisplay = document.getElementById('autocratic');
+const permissiveDisplay = document.getElementById('permissive');
+const activeDisplay = document.getElementById('active');
 
 const handleSubmit = e => {
 	e.preventDefault();
@@ -11,8 +14,9 @@ const handleSubmit = e => {
 	let autocratic = autocraticBelief + autocraticAction;
 	let permissive = permissiveBelief + permissiveAction;
 	let active = activeBelief + activeAction;
-	console.log(autocratic, permissive, active);
-	alert('Autocratic :' + autocratic + '\nPermissive :' + permissive + '\nActive :' active );
+	autocraticDisplay.innerHTML = `<em>${autocratic}</em`;
+	permissiveDisplay.innerHTML = `<em>${permissive}</em`;
+	activeDisplay.innerHTML = `<em>${active}</em`;
 }
 
 form.addEventListener('submit', handleSubmit);
