@@ -1,8 +1,11 @@
 body{
-	background-color: antiquewhite;
+	background-color: #fffff2;
 }
 header {
 	text-align: center;	
+}
+h1 {
+	color: blue;
 }
 .container {
 	padding: 20px 10px;
@@ -17,6 +20,12 @@ form {
 input {
 	width:40px; 
 	height:40px;
+}
+.output {
+	border: 1px solid black;
+	padding: 0 20px;
+	display: hidden;
+	margin-left: 5px;
 }
 @media screen and (max-width: 800px) {
 	form {
