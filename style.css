@@ -21,18 +21,30 @@ input {
 	width:40px; 
 	height:40px;
 }
+button {
+	font-size: 3.5vw;
+	padding: 20px;
+}
 .output {
 	border: 1px solid black;
 	padding: 0 20px;
 	display: hidden;
 	margin-left: 5px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	form {
 
-	font-size: 1vw;
+	font-size: 1.5vw;
 	}
 	strong {
 		font-size: 2.2vw;
 	}	
+	input {
+	width:20px; 
+	height:20px;
+	}
+	button {
+		font-size: 1vw;
+		padding: 20px;
+	}
 }
